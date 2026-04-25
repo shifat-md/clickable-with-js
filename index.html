@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable</title>
+</head>
+
+<body>
+
+    <div style="text-align: center;">
+        <button onclick="showBurger()" style="background-color: yellow; ">Buns</button>
+        <button onclick="showPatty()" style="background-color: yellow;">Patty</button>
+        <button onclick="showLatus()" style="background-color: yellow;">Latus</button>
+        <button onclick="showSalads()" style="background-color: yellow;">Salads</button>
+        <button onclick="showSauces()" style="background-color: yellow;">Sauces</button>
+        <button onclick="showBite()" style="background-color: yellow;">Bite</button>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <img id="imgA" src="chobi/buns.png" style="width: 500px; display: none;" alt="">
+        <img id="imgB" src="chobi/patty.png" style="width: 500px; display: none;" alt="">
+        <img id="imgC" src="chobi/latus.png" style="width: 500px; display: none;" alt="">
+        <img id="imgD" src="chobi/salads.png" style="width: 500px; display: none;" alt="">
+        <img id="imgE" src="chobi/sauces.png" style="width: 500px; display: none;" alt="">
+        <img id="imgF" src="chobi/bite.png" style="width: 500px; display: none;" alt="">
+    </div>
+
+    <!-- barger part end -->
+
+    <div style="text-align: center; margin-top: 60px;">
+        <button onclick="lightOn()" style="background-color: black; color: white;">ON</button>
+        <button onclick="lightOff()" style="background-color: black; color: white;">OFF</button>
+    </div>
+
+    <div style="text-align: center; ">
+        <img id="imgX" src="chobi/lightoff.png" style="width: 500px; display: none;" alt="">
+        <img id="imgN" src="chobi/on.png" style="width: 500px; display: none;" alt="">
+    </div>
+
+    <!-- light end -->
+
+    <div style="text-align: center; margin-top: 60px;">
+        <button onclick="sunRise()"  style="background-color:orangered; color: white;">Day</button>
+        <button onclick="sunSet()" style="background-color: navy; color: white;">Night</button>
+    </div>
+
+    <div>
+        <img id="sunR" src="chobi/day.png" style="display: none; width: 500px;" alt="">
+        <img id="sunS" src="chobi/night.png" style="display: none; width: 500px;" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
